@@ -35,7 +35,21 @@ Training vs Validation Accuracy
 
 ![Training VS Validation Accuracy](saved_plots/Training_VS_Validation_Accuracy.png)
 
-Note: These plots were saved during model training and show the performance of the LSTM model over each epoch.
+Note: 
+
+These plots were saved during model training and show the performance of the LSTM model over each epoch.
+
+Note on Overfitting
+
+The plots show that the LSTM model achieves very high accuracy on the training data (over 95%) while the validation accuracy plateaus around 75%, and the validation loss stops decreasing after a few epochs. This indicates some overfitting, which is common for models trained on relatively small datasets.
+
+Overfitting here means the model has learned the training examples very well, but its generalization to unseen data is limited. In practice, this can be addressed by techniques such as:
+
+Adding more training data
+
+Using regularization (e.g., dropout)
+
+Implementing early stopping to prevent training beyond the point where validation performance stops improving
 
 **How to Use**
 1. Clone the Repository
