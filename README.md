@@ -26,6 +26,7 @@ Accuracy: 0.77
  [ 96 240]]
 
 **Training Plots**
+
 Training vs Validation Loss
 
 ![Training VS Validation Loss](saved_plots/Training_VS_Validation_Loss.png)
