@@ -39,17 +39,21 @@ Note: These plots were saved during model training and show the performance of t
 
 **How to Use**
 1. Clone the Repository
+
 git clone https://github.com/AthanasiosKon/disaster-tweet-classifier-nlp.git
 cd disaster-tweet-classifier-nlp
 
 2. Create Virtual Environment
+
 conda create -n disaster-nlp python=3.10
 conda activate disaster-nlp
 
 3. Install Required Packages
+
 pip install -r requirements.txt
 
 4. Run the Model
+
 python src/main.py
 
 
